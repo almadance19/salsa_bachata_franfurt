@@ -8,8 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta property="og:title" content="Alma Dance Frankfurt" />
   <meta property="og:url" content="https://alma-dance-frankfurt.de/" />
-  <meta property="og:description" content="Express & Connect. Werde Teil unserer Community, um Lateintanz zu lernen, neue Leute kennenzulernen, dich auszudrücken und zu wachsen. Tanzkurse in Frankfurt und Offenbach. Salsa, Bachata & More!" />
-  <meta property="og:image" content="images/logo.webp" />
+  <meta property="og:description" content="Express & Connect" />
+  <meta property="og:image" content="images/logo" />
   <meta property="og:description" content="Express & Connect. Join our community in Frankfurt to learn latin dance, meet new people, express yourself and grow by learning Salsa, Bachata  &amp; More in Frankfurt &amp; Offenbach. Trial Class is Free!!">
   <meta name="description" content="Lerne Salsa, Bachata, Zouk und mehr Lateinamerikanische Tänze in Frankfurt. Tanzkurse, Privatunterricht. Schnupperkurs ist kostenlos! Werde Teil unserer Community, um neue Leute kennenzulernen. Tanzschule in Frankfurt & Offenbach">
 
@@ -17,7 +17,6 @@
 
   <!-- Bootstrap-Style-link -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
-
   <!-- Owl-Carosal-Style-link -->
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <!-- Coustome-Style-link -->
@@ -30,99 +29,71 @@
    <!-- Favicon -->
    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 
-
     <!-- Markup Schema Data Google -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "ItemList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "item": {
-              "@type": "Course",
-              "url":"https://salsa-bachata-frankfurt.de/bachata-tanzkurse-frankfurt.html",
-              "name": "Bachata Tanzkurse in Frankfurt",
-              "description": "Lerne Bachata in Frankfurt Sachsenhausen: Bachata Sensual, Tradicional, Moderna",
-              "provider": {
-                "@type": "Organization",
-                "name": "Alma Dance Bachata Kurse",
-                "sameAs": "https://alma-dance-frankfurt.de/"
-             }
-            }
+          "@type": "SportsActivityLocation",
+          "@id": "SportsActivityLocation",
+          "actionableFeedbackPolicy": "Alma Dance Frankfurt",
+          "additionalType": "https://alma-dance-frankfurt.de/",
+        "url": "https://alma-dance-frankfurt.de/",
+        "telephone": "+49 1639641730",
+        "email": "info@alma-dance.de",
+          "alternateName": "Tanzschule Alma Dance",
+          "areaServed": "Frankfurt am Main",
+          "description": "Bachata, Salsa, Zouk,Hochzeitstanz,Latin Tanzschule in Frankfurt am Main. Tanzveranstaltungen und Afterworks",
+        "image": [
+          "https://alma-dance-frankfurt.de/images/logo.webp",
+          "https://alma-dance-frankfurt.de/images/AlmaDanceEduNat.webp",
+          "https://alma-dance-frankfurt.de/images/alma_dancers_frankfurt.webp"
+         ],
+        "name": "Alma Dance Frankfurt",
+        "logo" : "https://alma-dance-frankfurt.de/images/logo.webp",
+          "sameAs" : [ 
+            "https://www.youtube.com/@almadancebachatasalsa9317",
+            "https://www.facebook.com/AlmaDanceFrankfurt",
+            "https://www.instagram.com/eduardo_natalia_almadance/"]
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Dreieichstraße 35",
+          "addressLocality": "Frankfurt am Main",
+          "addressRegion": "Hessen",
+          "postalCode": "60594",
+          "addressCountry": "Germany"
+        },
+        "review": {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
           },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "item": {
-              "@type": "Course",
-              "url":"https://salsa-bachata-frankfurt.de/salsa-tanzkurse-frankfurt.html",
-              "name": "Salsa Tanzkurse in Frankfurt",
-              "description": "Lerne Salsa in Frankfurt Sachsenhausen: Salsa New York, Salsa L.A",
-              "provider": {
-                "@type": "Organization",
-                "name": "Alma Dance Bachata Kurse",
-                "sameAs": "https://alma-dance-frankfurt.de/"
-             }
-           }
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "item": {
-              "@type": "Course",
-              "url":"https://salsa-bachata-frankfurt.de/zouk-tanzkurse-frankfurt.html",
-              "name": "Zouk Tanzkurse in Frankfurt",
-              "description": "Lerne brazilianisches Zouk in Frankfurt Sachsenhausen: Zouk",
-              "provider": {
-                "@type": "Organization",
-                "name": "Alma Dance Bachata Kurse",
-                "sameAs": "https://alma-dance-frankfurt.de/"
-             }
-            }
+          "author": {
+            "@type": "Person",
+            "name": "Viktoria"
           }
-        ]
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 50.10515822875264,
+          "longitude": 8.692279249077423
+        }
+
       }
       </script>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DX6VE16LTC">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  <!-- Meta Pixel Code -->
-  <script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '329457332873799');
-  fbq('track', 'PageView');
-  </script>
-  <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=329457332873799&ev=PageView&noscript=1"
-  /></noscript>
-  <!-- End Meta Pixel Code -->
-    
-  
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-WLJVWFTJ');</script>
-    <!-- End Google Tag Manager -->
-    
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DX6VE16LTC"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-DX6VE16LTC');
-    </script>
+  gtag('config', 'G-DX6VE16LTC');
+</script>
 
 </head>
 
@@ -140,7 +111,7 @@
       <!-- navigation bar -->
       <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="index.html">
-          <img src="images/logo.webp" alt="Logo">
+          <img loading="lazy" src="images/logo.webp" alt="Logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -152,7 +123,7 @@
           </span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" >
           <ul class="navbar-nav ml-auto" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
             <li class="nav-item active">
               <a class="nav-link" itemprop="url" href="index.html">Home</a>
@@ -172,26 +143,26 @@
             </li> -->
             <!-- secondery menu end -->
             <li class="nav-item" itemprop="name">
-              <a class="nav-link" itemprop="url" href="https://alma-dance-frankfurt.de/pricing_de.html">Preise</a>
+              <a class="nav-link" itemprop="url" href="pricing_de.html">Preise</a>
             </li>
             <li class="nav-item" itemprop="name">
-              <a class="nav-link" itemprop="url" href="https://alma-dance-frankfurt.de/kursplan.html">Kursplan</a>
+              <a class="nav-link" itemprop="url" href="kursplan.html">Kursplan</a>
             </li>
             <li class="nav-item" itemprop="name">
-              <a class="nav-link" itemprop="url" href="salsa-tanzkurse-frankfurt.html">Salsa</a>
+              <a class="nav-link" itemprop="url" href="booking_de.html">Buchen</a>
             </li>
             <li class="nav-item" itemprop="name">
-              <a class="nav-link" itemprop="url" href="bachata-tanzkurse-frankfurt.html">Bachata</a>
+              <a class="nav-link" itemprop="url" href="standort.html">Standort</a>
             </li>
             <li class="nav-item" itemprop="name">
-              <a class="nav-link" itemprop="url" href="zouk-tanzkurse-frankfurt.html">Zouk</a>
+              <a class="nav-link" itemprop="url" href="dance-partner-search.html">Tanzpartnersuche</a>
             </li>
             <li class="nav-item" itemprop="name">
-              <a class="nav-link" itemprop="url" href="https://alma-dance-frankfurt.de/kontakt.html">Kontakt</a>
+              <a class="nav-link" itemprop="url" href="kontakt.html">Kontakt</a>
             </li>
             <li class="nav-item" itemprop="name">
               <div class="btn_block">
-                <a class="nav-link dark_btn" href="danceschool-frankfurt.html">English</a>
+                <a class="nav-link dark_btn" href="home.html">English</a>
                 <div class="btn_bottom"></div>
               </div>
             </li>
@@ -227,13 +198,13 @@
       <div class="hero-info">
           <div class="hero-list">
               <ul>
-                  <li><i class="icofont-star"></i><strong> Salsa, Bachata & viels mehr in Frankfurt</strong></li>
+                  <li><i class="icofont-star"></i><strong> Tanzen in der Frankfurter Innenstadt</strong></li>
                   <li><i class="icofont-star"></i><strong> Werde Teil der Community</strong></li>
                   <li><i class="icofont-star"></i><strong> Tanzpartner nicht erforderlich</strong></li>
               </ul>
           </div>
           <div class="hero-button">
-              <a href="https://alma-dance-frankfurt.de/booking_de.html#agenda-container" class="button button-radius button-border button-gradient-bg">KOSTENLOSE PROBESTUNDE BUCHEN</a>
+              <a href="booking_de.html#agenda-container" class="button button-radius button-border button-gradient-bg">KOSTENLOSE PROBESTUNDE BUCHEN</a>
           </div>
       </div>
   </div>
@@ -249,25 +220,25 @@
         <div class="col-lg-3 col-6" data-aos="fade-up" data-aos-duration="1500">
           <!-- banner image left -->
           <!-- <div class="hero_imgleft">
-            <img src="images/hero_img1.png" alt="image">
+            <img loading="lazy" src="images/hero_img1.png" alt="image">
           </div> -->
         </div>
 
         <div class="col-lg-6 col-12 banner_content_colom" data-aos="fade-up" data-aos-duration="1500">
           <!-- banner text -->
           <div class="banner_text">
-            <h2> Alma Dance Salsa Bachata Frankfurt</h2>
+            <h2> Alma Dance Frankfurt</h2>
             <!-- h1 -->
             <!-- <h2>19th - 22th April 2024<br><span>YOU CANNOT MISS THIS EXPERIENCE</span></h2> -->
             <!-- p -->
-            <!-- <p>
+            <p>
               Express & Connect in Community!
             </p>
-            <a href="https://alma-dance-frankfurt.de/danceschool-frankfurt.html" class="btn btn-info" style="text-align: center;margin: 5px;" role="button">English Version</a>
-           -->
+            <a href="home.html" class="btn btn-info" style="text-align: center;margin: 5px;" role="button">English Version</a>
           </div>
         </div>
       </div>
+
 
       </div>
       <!-- row end -->
@@ -275,80 +246,45 @@
     <!-- container end -->
   </section>
   <!-- Banner-Section-end -->
-
-    <!--Experts Team Section Start  -->
-    <section class="row_am experts_team_section">
-      <div class="container">
-        <div class="section_title" data-aos="fade-up" data-aos-duration="1500">
-          <h2>Was ist<span> Salsa?</span> </h2>
-          <!-- <h4><span>„Dance is the hidden language of the soul.“</span></h4>
-          <h5><span>– Martha Graham</span></h5> -->
-        </div>
-        <div class="row">
-        </div>
-      </div>
-      <div class="container">
-        <div class="row abt_text aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500">
-          <div class="col-md-5">
-            <h5>SALSA TANZKURSE IN FRAKFURT MIT ALMA DANCE</h5>
-          </div>
-          <div class="col-md-7">
-            <p>Salsa ist ein sexy, energiegeladener und lustiger Partnertanz, der seinen Ursprung in Kuba und Puerto Rico hat.</p>
-            <p>Salsa drückt Lebensfreude, Verbundenheit, Sinnlichkeit und Leichtigkeit aus.
-              Deshalb sind der gefühlvolle Hüftschwung und die Freude der Tänzerinnen und Tänzer von besonderer Bedeutung für diesen Tanz.</p>
-            <p>Ein Pluspunkt ist, dass die Tanzpartner oft getauscht werden, was die Möglichkeit bietet, schnell neue Leute kennen zu lernen.
-              Es kann daher vorkommen, dass eine Dame an einem Salsa-Abend 10-30 verschiedene Tanzpartner erlebt.</p>
-              <div class="btn_block">
-                <a href="https://alma-dance-frankfurt.de/booking_de.html#agenda-container" class="btn puprple_btn ml-0">Probestunde Buchen</a>
-                <div class="btn_bottom"></div>
-              </div>
-              <div class="btn_block">
-                <a href="https://alma-dance-frankfurt.de/kursplan.html" class="btn puprple_btn ml-0">Kursplan</a>
-                <div class="btn_bottom"></div>
-              </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--Experts Team Section End  -->
-
-        <!--Experts Team Section Start  -->
-        <section class="row_am experts_team_section">
-          <div class="container">
-            <div class="section_title" data-aos="fade-up" data-aos-duration="1500">
-              <h2>Was ist<span> Bachata?</span> </h2>
-              <!-- <h4><span>„Dance is the hidden language of the soul.“</span></h4>
-              <h5><span>– Martha Graham</span></h5> -->
-            </div>
-            <div class="row">
-            </div>
-          </div>
-          <div class="container">
-            <div class="row abt_text aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500">
-              <div class="col-md-5">
-                <h5>BACHATA TANZKURSE IN FRAKFURT MIT ALMA DANCE</h5>
-              </div>
-              <div class="col-md-7">
-                <p>Bachata ist ein fröhlicher, dynamischer und lustiger Partnertanz,
-                  der seinen Ursprung in der Dominikanischen Republik hat.</p>
-                 <p>Verglichen mit anderen Tänzen ist Bachata der am einfachsten zu lernen.</p>
-                 <p>Das liegt an den sehr einfachen Grundlagen. Wenn man mehr Variationen, Schritte oder Figuren hinzufügt, 
-                 kann das Bachata-Tanzen sehr herausfordernd werden. Er wird auch im 4/4-Takt gespielt.</p>
-                  <div class="btn_block">
-                    <a href="https://alma-dance-frankfurt.de/booking_de.html#agenda-container" class="btn puprple_btn ml-0">Probestunde Buchen</a>
-                    <div class="btn_bottom"></div>
-                  </div>
-                  <div class="btn_block">
-                    <a href="https://alma-dance-frankfurt.de/kursplan.html" class="btn puprple_btn ml-0">Kursplan</a>
-                    <div class="btn_bottom"></div>
-                  </div>
+      <!-- Service Section Start -->
+      <section class="row_am service_section about_service" style="padding-bottom: 0px;">
+        <div class="container">
+          <div class="row service_blocks flex-row-reverse">
+            <div class="col-md-6">
+              <div class="img" data-aos="fade-up" data-aos-duration="1500">
+                <img loading="lazy" src="images/final_mailing.webp" alt="image">
               </div>
             </div>
+            <div class="col-md-6" >
+              <div class="service_text right_side" data-aos="fade-up" data-aos-duration="1500">
+                <h2><span>ALMA DANCE </span>ZIEHT IN EIN NEUES TANZSTUDIO IN BORNHEIM UM!</h2>
+                <p>Ab März werden alle unsere Kurse in einer neuen Location stattfinden, mit zwei Räumen, schönen Spiegeln, coolen Lichter und sogar einer Küche! Das bedeutet, dass wir mehr Komfort in unseren Kursen, mehr Platz für neue spannende Projekte, eine schönere Atmosphäre und mehr Möglichkeiten anbieten können, mit euch in Kontakt zu treten!.</p>
+                <p><strong>Neue Adresse:</strong> Alt-Bornheim 35.</p>
+                <ul class="feature_list">
+                  <li>
+                    <div class="icon">
+                      <span><i class="icofont-check-circled"></i></span>
+                    </div>
+                    <div class="text">
+                      <p><strong>Warum?: </strong>Unser Ziel war es schon immer, euch nicht nur qualitativ hochwertigen Unterricht und gute Lernmöglichkeiten zu bieten, sondern auch einen Raum, in dem sich eine Community von Gleichgesinnten aus aller Welt willkommen fühlt und miteinander connecten kann. </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="icon">
+                    </div>
+                    <div class="text">
+                      <a id="promotion-button" href="kursplan.html" class="btn btn-info" style="margin-top: 10px;margin-bottom: 10px;padding: 5px;background-color: #84309a;" role="button"><strong>Promotions</strong></a>
+                      <a id="promotion-button" href="kursplan.html" class="btn btn-info" style="margin-top: 10px;margin-bottom: 10px;padding: 5px;background-color: #84309a;" role="button"><strong>Schedule</strong></a>
+                      <a id="promotion-button" href="pricing_de.html" class="btn btn-info" style="margin-top: 10px;margin-bottom: 10px;padding: 5px;background-color: #84309a;" role="button"><strong>Prices</strong></a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+           
           </div>
-        </section>
-        <!--Experts Team Section End  -->
-
-
+        </div>
+      </section>
     <!-- Service Section Start -->
     <section class="row_am service_section about_service" style="padding-bottom: 0px;">
       <div class="container">
@@ -364,7 +300,7 @@
                     <span><i class="icofont-check-circled"></i></span>
                   </div>
                   <div class="text">
-                    <p><strong>Gruppen-Tanzkurse: </strong>Salsa, Bachata, Zouk, Latin Dance Tanzkurse. </p>
+                    <p><strong>Gruppen-Tanzkurse: </strong>Salsa, Bachata, Zouk, Latin Dance. </p>
                   </div>
                 </li>
                 <li>
@@ -372,7 +308,7 @@
                     <span><i class="icofont-check-circled"></i></span>
                   </div>
                   <div class="text">
-                    <p><strong>Privatunterricht: </strong>Hochzeitstanz, Customized class, Bachelors. </p>
+                    <p><strong>Privatunterricht: </strong>Wedding Dance, Customized class, Bachelors. </p>
                   </div>
                 </li>
                 <li>
@@ -380,16 +316,16 @@
                     <span><i class="icofont-check-circled"></i></span>
                   </div>
                   <div class="text">
-                    <p><strong>Tanzveranstaltungen: </strong>Tanzfestivals, Parties, Afterworks. </p>
+                    <p><strong>Tanzveranstaltungen: </strong> Dance Festivals, Parties, Afterworks. </p>
                   </div>
                 </li>
                 <li>
                   <div class="icon">
                   </div>
                   <div class="text">
-                    <a id="promotion-button" href="https://alma-dance-frankfurt.de/kursplan.html" class="btn btn-info" style="margin-top: 10px;margin-bottom: 10px;padding: 5px;background-color: #84309a;" role="button"><strong>Promotions</strong></a>
-                    <a id="promotion-button" href="https://alma-dance-frankfurt.de/kursplan.html" class="btn btn-info" style="margin-top: 10px;margin-bottom: 10px;padding: 5px;background-color: #84309a;" role="button"><strong>Schedule</strong></a>
-                    <a id="promotion-button" href="https://alma-dance-frankfurt.de/pricing_de.html" class="btn btn-info" style="margin-top: 10px;margin-bottom: 10px;padding: 5px;background-color: #84309a;" role="button"><strong>Prices</strong></a>
+                    <a id="promotion-button" href="kursplan.html" class="btn btn-info" style="margin-top: 10px;margin-bottom: 10px;padding: 5px;background-color: #84309a;" role="button"><strong>Promotions</strong></a>
+                    <a id="promotion-button" href="kursplan.html" class="btn btn-info" style="margin-top: 10px;margin-bottom: 10px;padding: 5px;background-color: #84309a;" role="button"><strong>Schedule</strong></a>
+                    <a id="promotion-button" href="pricing_de.html" class="btn btn-info" style="margin-top: 10px;margin-bottom: 10px;padding: 5px;background-color: #84309a;" role="button"><strong>Prices</strong></a>
                   </div>
                 </li>
               </ul>
@@ -397,14 +333,81 @@
           </div>
           <div class="col-md-6">
             <div class="img" data-aos="fade-up" data-aos-duration="1500">
-              <img src="images/alma_dancers_frankfurt.webp" alt="bachata dancers">
+              <img loading="lazy" src="images/alma_dancers_frankfurt.webp" alt="image">
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- Service Section END -->
 
+    <!--Experts Team Section Start  -->
+    <section class="row_am experts_team_section">
+      <div class="container">
+        <div class="section_title" data-aos="fade-up" data-aos-duration="1500">
+          <h2><span>„Dance is the hidden language of the soul.“</span></h2>
+          <h3><span>– Martha Graham</span></h3>
+        </div>
+        <div class="row">
+        </div>
+      </div>
+    </section>
+    <!--Experts Team Section End  -->
+
+
+<!-- PROGRAM FOTOS-Section start -->
+<section class="row_am interface_section" style="padding: 0;margin: 0;">
+  <!-- container start -->
+  <div id="promotion-section" class="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+    <span class="title_badge">Gallery</span>
+    <h2>Alma Dance<span> Highlights</span> </h2>
+    <h5>BEI ALMA DANCE GEHT ES UM MEHR ALS NUR UM TANZKURSE... WIR SIND EINE COMMUNITY!</h5>
+    <p>Tanzen ist das, was uns Freude schenkt und uns Energie für den Tag gibt.</p>
+    <p>Wir versuchen, dies in unsere Kurse einzubringen und eine Lernatmosphäre zu schaffen, die Spaß macht. Wir wollen der Ort sein, an dem Menschen Freundschaften schließen, sich wohlfühlen und einen Ausgleich zu ihrem Arbeits- und Studentenleben finden.</p>
+  </div>  
+    <!-- screen slider start -->
+    <div class="screen_slider" data-aos="fade-up" data-aos-duration="1500">
+      <div id="screen_slider" class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="screen_frame_img">
+            <img loading="lazy" src="images/highlights1.webp" alt="bachata class frankfurt">
+            <p></p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="screen_frame_img">
+            <img loading="lazy" src="images/highlights7.webp" alt="salsakurs aktion frankfurt">
+            <p></p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="screen_frame_img">
+            <img loading="lazy" src="images/highlights2.webp" alt="bachatakurs aktion frankfurt">
+            <p></p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="screen_frame_img">
+            <img loading="lazy" src="images/highlights3.webp" alt="Salsa class choreo">
+            <p></p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="screen_frame_img">
+            <img loading="lazy" src="images/highlights6.webp" alt="bachata dancer frankfurt">
+            <p></p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="screen_frame_img">
+            <img loading="lazy" src="images/highlights5.webp" alt="latin dance frankfurt">
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- screen slider end -->
+  <!-- container end -->
+</section>
 <!-- PROGRAM FOTOS-Section end -->
 <section class="row_am service_section about_service" style="padding: 0;">
   <div class="container" >
@@ -419,25 +422,26 @@
           <ul class="feature_list">
           </ul>
           <div class="btn_block">
-            <a href="https://alma-dance-frankfurt.de/booking_de.html#agenda-container" class="btn puprple_btn ml-0">Kostenlose Probestunde Buchen</a>
+            <a href="booking_de.html#agenda-container" class="btn puprple_btn ml-0">Kostenlose Probestunde Buchen</a>
             <div class="btn_bottom"></div>
           </div>
           <div class="btn_block">
-            <a href="https://alma-dance-frankfurt.de/kontakt.html" class="btn puprple_btn ml-0">Kontakt</a>
+            <a href="https://wa.me/message/AQECYWAZB43BJ1" class="btn puprple_btn ml-0">Kontakt</a>
             <div class="btn_bottom"></div>
           </div>
         </div>
       </div>
       <div class="col-md-6">
         <div class="img video_player" data-aos="fade-up" data-aos-duration="1500">
-          <img src="images/AlmaDanceEduNat.webp" alt="salsa tanzen frankfurt">
+          <img loading="lazy" src="images/AlmaDanceEduNat.webp" alt="image">
           <a href="#" class="popup-youtube play-button play_icon"
-            data-url="https://www.youtube.com/embed/YYZBZaPWR_k?si=_1lsKQYOhJV1Jruc?autoplay=1&mute=1" data-toggle="modal" data-target="#myModal" title="XJj2PbenIsU"><img src="images/play_white.svg" alt="salsakurs frankfurt"></a>
+            data-url="https://www.youtube.com/embed/YYZBZaPWR_k?si=_1lsKQYOhJV1Jruc?autoplay=1&mute=1" data-toggle="modal" data-target="#myModal" title="XJj2PbenIsU"><img loading="lazy" src="images/play_white.svg" alt="img"></a>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 <!--Experts Team Section Start  -->
 
 <section id="agenda-container" class="how_it_section">
@@ -446,16 +450,16 @@
       <div class="section_title" data-aos="fade-up" data-aos-duration="1500">
         <span class="title_badge"></span>
         <h2><span>Standort</span></h2>
-        <h4 class="">Dreieichstraße 35, 60594 Frankfurt am Main </p>
+        <a href="https://maps.app.goo.gl/oLDcUZ7JxAanWwod9"><h4 class="">Alt-Bornheim 35, 60385 Frankfurt am Main </p></a>
       </div>
       <div class="map_block row_am" data-aos="fade-in" data-aos-duration="1500">
         <div class="container">
-          <iframe title="Location Alma Dance" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2558.996994696205!2d8.685250562540753!3d50.105063221409466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd0f71905f8aff%3A0xc9a56681f6e2a1c0!2sAlma%20Dance%20Frankfurt!5e0!3m2!1sen!2sde!4v1699112897133!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <a href="https://maps.app.goo.gl/oLDcUZ7JxAanWwod9"><img loading="lazy" style="max-width: 90%;cursor: pointer;" src="images/Location.webp" alt="Alma Danceschool Frankfurt Location"></a>
         </div>
       </div>
       <h4>Anfahrt</h4>
-      <p>Das Studio ist sehr gut mit der U-Bahn oder der S-Bahn zu erreichen.</p>
-      <p>Die Haltestellen "Lokalbahnhof" & "Sudbanhhof" sind nur wenige Meter von unserem Hauptstandort entfernt.</p>
+      <p>Das Studio ist sehr gut mit der U-Bahn zu erreichen.</p>
+      <p>Die Haltestellen "Bornheim Mitte" & "Seckbacher Landstraße" sind nur wenige Meter von unserem Hauptstandort entfernt.</p>
     </div>
   </div>
 </section>
@@ -469,7 +473,7 @@
             <div class="logo_side">
               <!-- <div class="logo">
                 <a href="#">
-                  <img src="images/ft_logo.webp" alt="Logo">
+                  <img loading="lazy" src="images/ft_logo.webp" alt="Logo">
                 </a>
               </div> -->
               <div class="news_letter">
@@ -501,7 +505,7 @@
               <ul class="app_btn">
                 <!-- <li>
                   <a class="navbar-brand" href="index.html">
-                    <img src="images/logo.webp" alt="Logo">
+                    <img loading="lazy" src="images/logo.webp" alt="Logo">
                   </a>
                 </li> -->
               </ul>
@@ -516,10 +520,10 @@
               <p>©Alma Dance Frankfurt by Eduardo Millan</p>
             </div>
             <ul class="links">
-              <li><a href="https://alma-dance-frankfurt.de/kursplan.html">Kursplan</a></li>
-              <li><a href="https://alma-dance.de/instructors">Über uns</a></li>
-              <li><a href="https://alma-dance-frankfurt.de/pricing_de.html">Prices</a></li>
-              <li><a href="https://alma-dance-frankfurt.de/kontakt.html">Kontakt</a></li>
+              <li><a href="kursplan.html">Kursplan</a></li>
+              <li><a href="tanzschule-frankfurt.html">Über uns</a></li>
+              <li><a href="pricing_de.html">Prices</a></li>
+              <li><a href="kontakt.html">Kontakt</a></li>
             </ul>
             <div class="design_by">
               <!-- <p>Crafted by <a href="https://alma-dance.de" target="blank">Eduardo Millan</a></p> -->
@@ -581,10 +585,7 @@
   <!-- TEST PAYPAL <script src="https://www.paypal.com/sdk/js?client-id=AclB-BsMF4ANpqyctt2euY8KJeBkjLLKZblEKOinRpLMY4ku2ecNq45KvJ7CdMKMg-z3BJQKndjc0553&enable-funding=venmo&currency=EUR" data-sdk-integration-source="button-factory"></script>  -->
 
 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLJVWFTJ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 
   <script>
     $("#typed").typed({
@@ -622,7 +623,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   </script>
 <link rel="stylesheet" href="css/icofont.min.css">
-
+<link rel="stylesheet" href="cookie-banner.css">
+<div id="consent_data"></div>
+<script src="consent3.js"></script>
 </body>
   <!-- icofont-css-link -->
   
