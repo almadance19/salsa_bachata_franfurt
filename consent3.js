@@ -16,11 +16,7 @@ if (consent == 'true') {
     script_2.type = 'text/javascript';
     script_2.src ='FacebookPixel.js'
   
-    var script_3 = document.createElement('script');
-    script_3.type = 'text/javascript';
-    script_3.src ='googleTag.js'
-  
-    document.head.appendChild(script_3);
+
     document.head.appendChild(script_2);
   
     console.log("ALL CONSENT GIVEN");
